@@ -2,7 +2,7 @@
 
 echo "Install Vim......"
 
-#sudo apt-get install vim vim-gtk gtk2-engines-pixbuf exuberant-ctags cscope -y 
+sudo apt-get install vim vim-gtk gtk2-engines-pixbuf exuberant-ctags cscope -y 
 
 CURL_DIR=$(cd "$(dirname "$0")";pwd)
 ln -sf $CURL_DIR ~/.vim
