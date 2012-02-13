@@ -428,7 +428,7 @@ set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
 "Ignore case when searching
-set ignorecase
+"set ignorecase
 set incsearch
 
 "Set magic on
