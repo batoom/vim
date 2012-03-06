@@ -80,7 +80,8 @@ nmap W  b
 "add F3 for split current buffer to two window
 "add F4 foe open a new tab for current buffer
 map <F3> <esc>:split<cr>
-map <F4> <esc>:tabnew %<cr>
+"map <F4> <esc>:tabnew %<cr>
+map <F4> <esc>:tabnew %<cr>:buffers<cr>:buffer
 map <F2> <esc>:tabnew<cr>
 
 "解决菜单乱码
@@ -256,7 +257,7 @@ if has("cscope")
 endif
 
 "no match case when auto complete
-set noignorecase
+"set noignorecase
 
 "let g:AutoComplePop_lgnoreCaseOption=0
 "set ignorecase
@@ -428,7 +429,7 @@ set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
 "Ignore case when searching
-"set ignorecase
+set ignorecase
 set incsearch
 
 "Set magic on
