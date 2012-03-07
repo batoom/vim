@@ -1222,3 +1222,6 @@ noremap <silent><C-f> :GrepBuffer<CR>
 "use F6 to ctags the current file
 noremap <F6> :!ctags --c++-kinds=+p --fields=+iaS --extra=+q %<CR><CR>
 
+#vi 显示中文
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk,ucs-bom,cp936
